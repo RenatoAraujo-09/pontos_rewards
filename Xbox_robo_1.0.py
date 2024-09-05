@@ -1,5 +1,8 @@
-import pyautogui
+"""
+Este módulo automatiza pesquisas de cores de cabelo no site de prêmios do Bing.
+"""
 import time
+import pyautogui
 
 # Configuração inicial
 pyautogui.PAUSE = 3
@@ -20,7 +23,7 @@ time.sleep(7)
 pyautogui.click(x=710, y=486)
 for i in range(36):
     pyautogui.press('tab')
-
+# range 36 vai variar de quantas tab precisa ate chegar no campo PC Search
 for i in range(2):
     pyautogui.press("enter")
 time.sleep(5)
@@ -39,3 +42,4 @@ for color in colors:
     pyautogui.press("enter")
     time.sleep(5)
     pyautogui.click(x=717, y=111)
+    
