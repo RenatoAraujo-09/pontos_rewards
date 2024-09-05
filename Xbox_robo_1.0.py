@@ -1,5 +1,5 @@
 """
-Este módulo automatiza pesquisas de cores de cabelo no site de prêmios do Bing.
+Script para automatizar tarefas no navegador usando o pyautogui, para resgate de pontos xbox rewards.
 """
 import time
 import pyautogui
